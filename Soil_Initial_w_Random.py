@@ -39,7 +39,6 @@ with open("C:/Users/lvaid/skku/Technometrics/Projects/S-Oil/Rawdata/initialvalue
     for line in rdr:
         initial_csv.append(line)
 
-
 class FinalInitial:
     def __init__(self, num_particle):
         self.num_particle = num_particle
