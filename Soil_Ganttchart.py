@@ -62,6 +62,7 @@ class Ganttchart():
                 col+=0.05
         plt.show()
 
+        
 class Oilgraph():
     def __init__(self, oilschedule_x, oilschedule_y):
         # self.finish_time_list_for_oil_graph = 작업 종료 시간 리스트 = [ 0, 33, 33, 55, 55, 72, ...] 오일별로. 시간은 0 제외하고 이렇게 두번씩 들어가야 함!
